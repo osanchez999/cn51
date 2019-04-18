@@ -1,0 +1,52 @@
+/* CSS Document */
+.carousel-item{
+    height: 100%;
+    min-height: 100%;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;    
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #FFFFFF;
+    
+}
+.navbar-light .navbar-brand{
+    color: #FFFFFF;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing:  2px;
+}
+.sec-info .col-md-6{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sec-services{
+    background-color: #F4F4F4;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+.sec-services .card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sec-progr{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    background-color: #3B3946;
+    
+}
+.sec-progr .program{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    background-color: #3B3946;
+    
+}
+footer{
+    color: #fff;
+    background-color: #1D1C21;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
