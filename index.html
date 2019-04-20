@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Documento sin título</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">   
+<link rel="stylesheet" href="css/bootstrap.min.css"> 
+<link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/style.css">    
 </head>
 
@@ -15,7 +16,8 @@
             <a class="navbar-brand" href="#">
                 <img src="img/logocn51.png">
             </a>
-            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -24,8 +26,14 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Programas<span class="sr-only">(current)</span></a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programas</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Entretenimiento</a>
+                            <a class="dropdown-item" href="#">Noticias</a>
+                            <a class="dropdown-item" href="#">Salud</a>
+                            <a class="dropdown-item" href="#">Música</a>
+                        </div>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Canales<span class="sr-only">(current)</span></a>
@@ -47,8 +55,7 @@
             </nav>
         </div>    
     </header>
-
-    
+ 
 <!--Carrousel-->    
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -74,17 +81,8 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<!--acerca de nosotros-->
-    <section class="sec-info">
-        <div class="container text-center">
-            <div class="row ">
-                <div class="col-sm col-md-6 offset-md-3">
-                    <h2>Acerca de nosotros</h2>
-                    <p>Generar desarrollo es nuestro lema, es por eso que que nuestra programación se enfoca en los pilares de una sociedad asi de esta manera generar desarrollo</p>
-                </div>
-            </div>
-        </div>    
-    </section>  
+    
+    
 <!--Servicios-->
     <section class="sec-services">
         <div class="container text-center">
@@ -132,6 +130,20 @@
             </div>
          </div>        
     </section>
+    
+<!--acerca de nosotros-->
+    <section class="sec-info">
+        <div class="container text-center">
+            <div class="row">
+                 <div class="d-none d-md-block d-lg-block d-xl-block col-md-6">
+                    <img src="img/camara.png" class="img-fluid wow slideInLeft" data-wow-duration="0.5s" style="margin-left: -300px;">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <img src="img/sec_info.png" class="img-fluid wow slideInRight" data-wow-duration="0.5s" style="padding-top: 30px;" >
+                </div>
+            </div>
+        </div>    
+    </section>  
     <section class="sec-progr">         
         <div class="container">
             <div class="row text-center">
@@ -171,7 +183,11 @@
             </div>
         </div>
     </footer>
-<script src="js/jquery-3.3.1.min.js"></script>    
+<script src="js/jquery-3.3.1.min.js"></script>  
+<script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 <script src="js/bootstrap.min.js"></script>
 </body>
 <foot>
