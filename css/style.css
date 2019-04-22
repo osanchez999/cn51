@@ -6,6 +6,19 @@
     -webkit-background-size: cover;
     background-size: cover;    
 }
+
+.fixed-top.scrolled{
+    transition: 750ms ease;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: orange;
+}
+.navbar-brand.scrolled{
+    width: 128px !important;
+    
+}
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
     color: #FFFFFF;
     
@@ -68,4 +81,22 @@ footer{
     background-color: #1D1C21;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.sec-streaming{
+    background-image:url("../img/paralaxorg.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.sec-streaming .col-12{
+    width: 100%;
+    height: 100%;
 }
