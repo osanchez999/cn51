@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Documento sin título</title>
 <link rel="stylesheet" href="css/bootstrap.min.css"> 
 <link rel="stylesheet" href="css/animate.css">
@@ -59,12 +60,14 @@
     <!--Code Streaming-->   
     <div class="container">
         <div class="row text-center">
-            <div class="d-none d-md-block d-lg-block d-xl-block col-md-12">
-                <iframe src="https://www.ustream.tv/embed/23654868?html5ui&autoplay=true" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="720" height="405"></iframe>
+            <div class="col-sm-12 col-md-12">
+                <div class="embed-container">
+                    <div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.ustream.tv/embed/23654868?html5ui&autoplay=true"></iframe>
+                    </div>
+                    <!--<iframe src="https://www.ustream.tv/embed/23654868?html5ui&autoplay=true" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="720" height="405"></iframe>-->
+                </div>   
             </div>
-            <div class="d-sm-block d-md-none d-lg-none d-xl-none col-sm-12">
-                <iframe src="https://www.ustream.tv/embed/23654868?html5ui&autoplay=true" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no"></iframe>
-            </div>
+
         </div>
     </div>    
 </section>
