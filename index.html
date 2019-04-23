@@ -2,22 +2,24 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Documento sin título</title>
 <link rel="stylesheet" href="css/bootstrap.min.css"> 
 <link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/style.css">    
+<link rel="stylesheet" href="css/style.css">  
+<link rel="stylesheet" href="css/bootstrap-custom.css">  
+    
 </head>
 
 <body>
 <!--Navegador-->
-    <header>
+    <!--<header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <nav class="navbar navbar-toggleable-sm bg-faded navbar-expand-lg navbar-light fixed-top">
             <a class="navbar-brand" href="#">
                 <img src="img/logocn51.png" class="img-fluid wow slideInLeft" data-wow-duration="0.5s" style="width: 160px;">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -54,8 +56,96 @@
             </div>
             </nav>
         </div>    
+    </header>-->
+    <header>
+    <div class="container">
+        <div class="row">
+            <div class="d-none d-md-none d-lg-block d-xl-block col-md-12">
+                <div class="container" id="navlarg">
+                    <nav class="navbar bg-faded navbar-expand-lg navbar-light fixed-top">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/logocn51.png" class="img-fluid wow slideInLeft" data-wow-duration="0.5s" style="width: 160px;">
+                        </a>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                            <ul class="navbar-nav ml-auto">       
+                                <li class="nav-item active">               
+                                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programas</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Entretenimiento</a>
+                            <a class="dropdown-item" href="#">Noticias</a>
+                            <a class="dropdown-item" href="#">Salud</a>
+                            <a class="dropdown-item" href="#">Música</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Canales<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="streaming.html" style="color: #FF0004;">■ TvOnline<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <div class="row">
+                    <div class="col-sm-auto di">
+                        <a class="nav-link" style=" margin-left: 0px; margin-right: 0px; padding-left: 10px; padding-right: 0px;" href="#"><img src="img/iconfacebook.png" class="img-fluid" style="width: 32px;"></a>
+                    </div>
+                    <div class="col-sm-auto">
+                        <a class="nav-link" style="margin-left: 0px padding-left: 0px;" href="#"><img src="img/iconinstagram.png" class="img-fluid" style="width: 32px;"></a>
+                    </div>
+                </div>
+                
+            </div>
+            </nav>
+        </div>     
+            </div>
+            <div class="d-sm-block d-md-block d-lg-none d-xl-none col-sm-12 col-md-12" id="navpequ">
+                <div class="container">
+                <nav class="navbar navbar-toggleable-sm bg-faded navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                <img src="img/logocn51.png" class="img-fluid wow slideInLeft" data-wow-duration="0.5s" style="width: 160px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programas</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Entretenimiento</a>
+                            <a class="dropdown-item" href="#">Noticias</a>
+                            <a class="dropdown-item" href="#">Salud</a>
+                            <a class="dropdown-item" href="#">Música</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Canales<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="streaming.html" style="color: #FF0004;">■ TvOnline<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <div class="row">
+                    <div class="col-sm-auto di">
+                        <a class="nav-link" style=" margin-left: 0px; margin-right: 0px; padding-left: 10px; padding-right: 0px;" href="#"><img src="img/iconfacebook.png" class="img-fluid" style="width: 32px;"></a>
+                    </div>
+                    <div class="col-sm-auto">
+                        <a class="nav-link" style="margin-left: 0px padding-left: 0px;" href="#"><img src="img/iconinstagram.png" class="img-fluid" style="width: 32px;"></a>
+                    </div>
+                </div>
+                
+            </div>
+            </nav>
+        </div> 
+            </div>
+        </div>
+    </div>
     </header>
- 
 <!--Carrousel-->
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -210,6 +300,5 @@
     });
 </script>    
 </body>
-<foot>
-    </foot>
+
 </html>

@@ -1,0 +1,10 @@
+/*.collapse{
+    background-color:#393841;
+    border-radius: 6px 6px 6px 6px;
+    padding-left: 10px;
+}*/
+.navbar-toggler:hover{
+    background-color:#393841;
+    border-radius: 6px 6px 6px 6px;
+    padding-left: 10px;
+}

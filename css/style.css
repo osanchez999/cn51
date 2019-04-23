@@ -1,4 +1,11 @@
 /* CSS Document */
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+header{
+    background-color: #353A40;
+}
 .carousel-item{
     height: 100%;
     min-height: 100%;
@@ -30,7 +37,7 @@
     color: #393841;
     background-color: #F9B133;
     transition: 0.5s;
-    transform-origin: center;
+    transform-origin: left;
     transform: scale(1.1);
     z-index: -1;
     
@@ -70,6 +77,7 @@
     
 }
 .sec-progr .program{
+    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
@@ -82,21 +90,38 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 .sec-streaming{
+    padding-top: 110px;
+    padding-bottom: 110px;
     background-image:url("../img/paralaxorg.png");
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
-    width: 100%;
-    height: 100%;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    display:block;
+}
+.mi-iframe {
+  width: 100px;
+  height: 50px;
+}
+
+/* CSS pantallas de 320px o superior */
+@media (min-width: 320px) {
+
+  .mi-iframe {
+    width: 200px;
+    height: 150px;
+  } 
 
 }
-.sec-streaming .col-12{
-    width: 100%;
-    height: 100%;
+
+/* CSS pantalla 768px o superior */
+@media (min-width: 768px) {
+
+  .mi-iframe {
+    width: 500px;
+    height: 350px;
+  } 
+
 }
