@@ -2,6 +2,10 @@
 @-ms-viewport{
     width: extend-to-zoom;
     zoom: 1.0;
+    
+}
+body{
+    background-color: #353A40;
 }
 header{
     background-color: #353A40;
