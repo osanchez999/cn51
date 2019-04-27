@@ -2,7 +2,16 @@
 @-ms-viewport{
     width: extend-to-zoom;
     zoom: 1.0;
-    
+}
+.linkactive{
+    background-color:rgba(57,56,65,0.60); 
+    border-radius: 5px;
+}
+.linkactivecl{
+    padding-right: 10px;
+    background-color:rgba(96,96,96,1.00); 
+    color: #ffff;
+    border-radius: 5px;
 }
 body{
     background-color: #353A40;
@@ -95,8 +104,8 @@ footer{
     padding-bottom: 10px;
 }
 .sec-streaming{
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-top: 100px;
+    padding-bottom: 200px;
     background-image:url("../img/paralaxorg.png");
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -127,5 +136,39 @@ footer{
     width: 500px;
     height: 350px;
   } 
+
+}
+.sec-streaming .col-md-12{
+    height: 1090px;
+}
+.sec-streaming .col-sm-12{
+    height: 450px;
+}
+
+.sec-streaming .col-sm-12 iframe{
+    padding-top: 10px
+}
+.di{
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 3;
+    
+}
+.di2{
+    color: #fff;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+footer .nav-link{
+    width: 50px;
+}
+hr{
+    height: 2px;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.2; 
+    noshade: noshade;
+        
 
 }
